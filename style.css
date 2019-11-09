@@ -1,0 +1,89 @@
+/* NAVIGATION */
+
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding-right: 8%;
+}
+
+li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/* MAIN CONTENT */
+
+main {
+    background-color: #d9d9d9;
+}
+
+/* VIDEO SECTION */
+
+.video-section {
+    width: 100%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.video {
+    width: 560px;
+    height: 315px;
+}
+
+.video-section-text {
+    width: 40%;
+    padding: 5%;
+    text-align: justify;
+}
+
+/* EMAIL FORM */
+
+.form-section {
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.form-section > p {
+    text-align: center;
+}
+
+.form-wrapper {
+    width: 40%;
+    border: 1px dotted black;
+    margin: auto;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
